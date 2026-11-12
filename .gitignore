@@ -1,0 +1,43 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env.local
+.env.*.local
+
+# Sensitive Keys & Environment Variables
+.env
+
+# Testing & Coverage (Strictly block test artifacts and test folders from public repo)
+tests/
+test/
+.pytest_cache/
+.coverage
+htmlcov/
+*.coverage.*
+
+# IDEs & OS Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary Telemetry
+logs/
+*.log
+*.log.*
+data/
+*.sqlite3
