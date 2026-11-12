@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  quantlab:
+    build: .
+    container_name: quantlab_research
+    restart: unless-stopped
+    environment:
+      - QUANT_ENV=research
+      - DEFAULT_RISK_FREE_RATE=0.045
+    volumes:
+      - ./:/app
